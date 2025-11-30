@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HIT AND SIP COFFE XII AKL 1</title>
+
+  <style>
+    body {
+      font-family: "Segoe UI", Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f3ede7;
+    }
+
+    header {
+      width: 100%;
+      height: 80vh;
+      background: url("header-bg.jpg") no-repeat center center/cover;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      position: relative;
+    }
+
+    header::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.35);
+    }
+
+    .header-content {
+      position: relative;
+      z-index: 2;
+    }
+
+    header h1 {
+      font-size: 55px;
+      font-weight: 900;
+      margin: 0;
+      background: linear-gradient(90deg, #ffd37a, #e3a243, #c5741f);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      text-shadow: 3px 3px 15px rgba(0,0,0,0.8);
+      letter-spacing: 2px;
+    }
+
+    header h3 {
+      font-size: 22px;
+      color: #ffe7b8;
+      text-shadow: 2px 2px 8px rgba(0,0,0,0.7);
+      margin-top: 10px;
+      font-weight: 500;
+    }
+
+    nav {
+      background: #5d4037;
+      padding: 12px;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 18px;
+      font-weight: bold;
+      text-decoration: none;
+      font-size: 17px;
+    }
+
+    nav a:hover {
+      color: #ffd37a;
+    }
+
+    .container {
+      padding: 25px;
+      max-width: 1000px;
+      margin: 35px auto;
+      background: #fffaf4;
+      border-radius: 12px;
+      box-shadow: 0 0 12px rgba(0,0,0,0.15);
+    }
+
+    h2 {
+      margin-top: 0;
+      color: #4b2e23;
+      font-size: 28px;
+      border-left: 6px solid #c5741f;
+      padding-left: 12px;
+    }
+
+    img {
+      width: 30%;
+      border-radius: 12px;
+      margin-right: 10px;
+      box-shadow: 0 3px 10px rgba(0,0,0,0.15);
+    }
+
+    video {
+      width: 40%;
+      height: 500px;
+      border-radius: 12px;
+      box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
+      margin-bottom: 20px;
+    }
+
+    .intro-text {
+      font-size: 18px;
+      line-height: 1.7;
+      background: #fff3df;
+      padding: 18px;
+      border-radius: 10px;
+      border-left: 5px solid #c5741f;
+      color: #4b3b2b;
+      box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+    }
+
+    .download-box {
+      margin-top: 15px;
+      padding: 20px;
+      background: #ffe8c6;
+      border: 1px solid #e0bf8f;
+      border-radius: 12px;
+      text-align: center;
+      box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+    }
+
+    .download-box a {
+      display: inline-block;
+      padding: 12px 20px;
+      background: #c5741f;
+      color: white;
+      border-radius: 8px;
+      text-decoration: none;
+      font-size: 16px;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    .download-box a:hover {
+      background: #a55a18;
+    }
+
+    footer {
+      margin-top: 30px;
+      background: #3e2723;
+      color: white;
+      text-align: center;
+      padding: 18px;
+      font-size: 16px;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <div class="header-content">
+    <h1>HIT AND SIP COFFE</h1>
+    <h3>The Real Hit For Your Sip</h3>
+  </div>
+</header>
+
+<nav>
+  <a href="#nama">Nama Kelompok</a>
+  <a href="#detail">Detail Produk</a>
+  <a href="#download">PDF Anggaran</a>
+</nav>
+
+<section id="nama" class="container">
+  <h2>Nama Kelompok</h2>
+
+  <ul style="
+      list-style: none; 
+      padding-left: 0; 
+      font-size: 18px; 
+      line-height: 1.8;
+  ">
+    <li>• Angelica Samantha / 4</li>
+    <li>• Bryan Hendrawan Susanto / 5</li>
+    <li>• Jessica Grace / 10</li>
+    <li>• Jessica Yulia Aviyanto / 11</li>
+    <li>• Mahanani Cahaya Christi / 15</li>
+  </ul>
+</section>
+
+<section id="detail" class="container">
+  <h2>Detail Produk</h2>
+
+<p class="intro-text">
+    Selamat datang di Hit and Sip Coffee — kopi yang terbuat dari bahan-bahan asli dengan rasa yang tidak tertandingi.
+    Tak ada penggantinya. Inilah “Hit yang sesungguhnya untuk minuman Anda.”
+  </p>
+
+  <img src="HitAndSip.jpg" alt="Gambar kopi">
+  <img src="has.jpg" alt="Gambar kopi">
+
+  <h3>Informasi Kontak</h3>
+  <p><strong>📍 Alamat:</strong> Jl. Imam Bardjo SH, Pleburan</p>
+  <p><strong>📞 Nomor Telepon:</strong> 0895-3001-1698</p>
+
+  <h3>Video Promosi</h3>
+
+  <video controls>
+    <source src="video-kopi.mp4" type="video/mp4">
+  </video>
+
+</section>
+
+<section id="download" class="container">
+  <h2>PDF Anggaran</h2>
+
+  <div class="download-box">
+    <h3>Katalog PDF</h3>
+    <p>PDF Anggaran lengkapnya di sini:</p>
+    <a href="PERHITUNGAN HPP & BEP KELOMPOK 4.pdf" download>📄 PDF Anggaran</a>
+  </div>
+</section>
+
+<footer>
+  <p>&copy; 2025 HIT AND SIP COFFE</p>
+</footer>
+
+</body>
+</html>
